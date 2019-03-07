@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+		
+		<title>JGO登录界面</title>
+
+		<link rel="stylesheet" href="css/pageLogin.css">
+		<style>
+			body{
+				background-image:url(images/0.jpg);				
+				position:fixed;
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			
+		</style>
+		
+		<script src="js/jquery-2.1.1.min.js"></script>
+
+	</head>
+	
+	<body>
+		<div class="login_logo" id="logo">
+			<div class="logo">JGO.</div>
+			<div class="text"></div>
+		</div>
+		
+		<form class="login_block" id="login" method="POST">
+			
+			<span class="ui-state-default ui-corner-all" title=".ui-icon-mail-closed">
+				<span class="ui-icon ui-icon-mail-closed"></span>
+			</span>
+			
+			<div class="login_title">
+				Login
+			</div >
+			
+			<div class="login_user">
+				<p>用 户 名</p> 
+				<!-- onfocus="jfocus(this)" -->
+				<input type="text" name="username" >
+			</div>
+			
+			<div class="login_pass">
+				<p>密 码</p>    
+				<input type="password" name="password">
+			</div>
+			
+			<div class="login_none">
+				<input type="checkbox" > &nbsp;十天之内自动登录
+			</div>
+			
+			<div class="login_button">
+				<input type="submit"  value="登 录">
+			</div>
+			
+			<div class="login_registe">
+				<span class="registe" onmouseover="loginOver(this)" onmouseout="loginOut(this)"
+				id="btregist">
+					注 册 &nbsp;
+				</span>
+				| &nbsp;
+				<span class="registe" onmouseover="loginOver(this)" onmouseout="loginOut(this)">
+					忘记密码？
+				</span>
+			</div>
+		</form>
+		
+		<div class="regist_block">
+			
+		</div>
+		
+		<div class="login_end">
+
+		</div>
+		
+	</body>
+	
+</html>

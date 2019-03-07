@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+.login_logo{
+	height:570px;
+	width:530px;
+	float:left;
+}
+.logo{
+	font-size:60px;
+	color:#fff;
+	font-family:Abduction2002;
+	margin-top:20px;
+	margin-left:70px;
+}
+.text{
+	font-size:35px;
+	color:white;
+	font-family:Vrinda;
+	margin-top:2px;
+	margin-left:100px;
+}
+.login_block{
+	background-color:white;
+	height:500px;
+	width:450px;
+	/*设置透明度*/
+	opacity:0.9;
+	float:right;
+	margin-top:70px;
+	
+}
+.login_title{
+	font-size:40px;
+	color:#e44;
+	font-family:Pump Demi Bold LET;
+	margin-top:50px;
+	margin-left:50px;
+}
+.login_user{
+	font-size:16px;
+	font-family:微软雅黑;
+	margin-top:40px;
+	margin-left:100px;
+}
+.login_user input{
+	font-family:微软雅黑;
+	font-size:14px;
+	height:30px;
+	width:250px;
+}
+.login_pass{
+	font-size:16px;
+	font-family:微软雅黑;
+	margin-top:10px;
+	margin-left:100px;
+}
+.login_pass input{
+	font-family:微软雅黑;
+	font-size:14px;
+	height:30px;
+	width:250px;
+}
+.login_none{
+	color:#aaa;
+	font-size:14px;
+	font-family:微软雅黑;
+	margin-top:10px;
+	margin-left:105px;
+}
+.login_none input{
+	-webkit-transform: scale(1.5); /* Safari and Chrome */
+}
+.login_button input{
+	background:#e44;
+	font-size:20px;
+	font-family:微软雅黑;
+	padding:10px 100px 10px 100px;
+	text-decoration:none;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	color:white;
+	cursor:pointer;
+	margin-top:20px;
+	margin-left:100px;
+}
+.login_registe{
+	color:#aaa;
+	text-align:center;
+	font-size:16px;
+	font-family:微软雅黑;
+	margin-top:20px;
+}
+.registe{
+	cursor:pointer;
+}
+.regist_block{
+	background-color:white;
+	height:500px;
+	width:450px;
+	/*设置透明度*/
+	opacity:0.9;
+	float:right;
+	margin-top:70px;
+	display:none;
+}
